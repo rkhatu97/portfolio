@@ -1,0 +1,47 @@
+.contact-list {
+  .list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .icon {
+      display: flex;
+      width: 100px;
+      height: 100px;
+      margin-right: 15px;
+      background: #f2f3f7;
+      justify-content: center;
+      align-items: center;
+      i {
+        font-size: 40px;
+      }
+    }
+    .value {
+      font-size: 20px;
+    }
+    .icon-1 {
+      color: #4054b2;
+    }
+    .icon-2 {
+      color: #ec5453;
+    }
+    .icon-3 {
+      color: #2c98f0;
+    }
+    .icon-4 {
+      color: #2fa499;
+    }
+  }
+  .bounce-class {
+    animation: bounce 0.5s alternate ease;
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, -15px, 0);
+  }
+}

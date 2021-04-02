@@ -1,0 +1,46 @@
+.collapse-1 {
+  .title {
+    border: 3px solid #2c98f0;
+  }
+}
+
+.collapse-2 {
+  .title {
+    border: 3px solid #ec5453;
+  }
+}
+
+.collapse-3 {
+  .title {
+    border: 3px solid #2fa499;
+  }
+}
+.collapse-1,
+.collapse-2,
+.collapse-3 {
+  padding: 0;
+  &:focus {
+    box-shadow: none;
+  }
+  .title {
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    padding: 10px 20px;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: space-between;
+  }
+  .panel-group .panel .show,
+  .panel-group .panel .collapsing {
+    transition: none;
+    border-top: none;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    .panel-body {
+      font-size: 18px;
+      text-align: left;
+    }
+  }
+}

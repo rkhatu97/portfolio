@@ -1,0 +1,48 @@
+@import "../../variable.scss";
+
+.about-page {
+  .details {
+    color: #5d5d5f;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+
+    strong {
+      color: #000;
+    }
+  }
+  #technologies-list {
+    display: flex;
+    margin-bottom: 3rem;
+    #list {
+      padding: 10px;
+
+      #list-div {
+        display: flex;
+        height: 180px;
+        font-size: 18px;
+        padding: 10px 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+      }
+    }
+  }
+  #hire-me {
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #fdc830, #f37335);
+    p {
+      font-size: xx-large;
+      margin-bottom: 20px;
+    }
+    #download-cv {
+      color: #000;
+      font-size: 14px;
+      cursor: pointer;
+      padding: 5px 10px;
+      border: 1px solid #000;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.skills-page {
+  .progress_bar .pro-bar {
+    height: 6px;
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 12px;
+    background: #e4e4e4;
+    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.1) inset;
+  }
+  .progress_bar .progress_bar_title {
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    top: -28px;
+    z-index: 1;
+  }
+  .progress_bar .progress_number {
+    float: right;
+    margin-top: 0;
+    color: #000;
+    font-weight: 500;
+  }
+  .progress_bar .progress-bar-inner {
+    background-color: hsl(0, 0%, 88%);
+    display: block;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 1s linear 0s;
+  }
+  .progress_bar .progress-bar-inner:before {
+    content: "";
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    right: 1px;
+    top: 0;
+    z-index: 1;
+  }
+  .progress_bar .progress-bar-inner:after {
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-color: inherit;
+    border-radius: 50%;
+    position: absolute;
+    right: -4px;
+    top: -5px;
+  }
+}

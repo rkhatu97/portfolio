@@ -1,0 +1,90 @@
+@import "./variable.scss";
+
+.color-blue {
+  color: $primary-color;
+}
+
+.bg-color-blue {
+  background: $primary-color;
+}
+
+.color-1 {
+  border-bottom: 3px solid #2c98f0;
+}
+.color-2 {
+  border-bottom: 3px solid #ec5453;
+}
+.color-3 {
+  border-bottom: 3px solid #f9bf3f;
+}
+.color-4 {
+  border-bottom: 3px solid #a84cb8;
+}
+.color-5 {
+  border-bottom: 3px solid #2fa499;
+}
+.color-6 {
+  border-bottom: 3px solid #4054b2;
+}
+
+.App {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  .container-wrap {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  .components-container {
+    width: calc(100% - 300px);
+    float: right;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.29);
+  }
+}
+
+.component-spacing {
+  padding: 5rem 2.5rem;
+}
+
+.component-header {
+  display: block;
+  font-size: 11px;
+  color: #999999;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.component-sub-header {
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 3em;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.scroll-up {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  z-index: 100;
+  cursor: pointer;
+  animation: scrollTop 0.5s alternate ease;
+}
+
+.scroll-up img {
+  width: 35px;
+  padding-top: 10px;
+}
+
+@keyframes scrollTop {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, -15px, 0);
+  }
+}
