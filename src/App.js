@@ -22,6 +22,24 @@ function App() {
       setVisibility(false);
     }
   }, [pageYOffset])
+  
+  useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        const number = Number(entry.intersectionRatio).toFixed(1);
+        const id = entry.target.getAttribute('id');
+        if (number > 0.2) {
+          document.querySelector(`a[href="#${id}"]`).parentElement.classList.add('active-link');
+        } else {
+          document.querySelector(`a[href="#${id}"]`).parentElement.classList.remove('active-link');
+        }
+      });
+    });
+    // Track all sections that have an `id` applied
+    document.querySelectorAll('section[id]').forEach((section) => {
+      observer.observe(section);
+    });
+  });
 
   function onScrollTop() {
     window.scroll({ top: 0, left: 0, behavior: 'smooth' })
@@ -29,7 +47,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="container-wrap">
+      <div>
         <Sidebar />
         <div className="components-container">
           <Home />

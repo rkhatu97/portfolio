@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll';
 import './index.scss';
 
 function Sidebar() {
-    const [selectedMenuId, setSelectedId] = useState(0);
     const [showMobileMenu, setMobileMenuState] = useState(false);
 
     const navigationMenus = [
@@ -13,38 +11,32 @@ function Sidebar() {
         { id: 3, name: 'skills' },
         { id: 4, name: 'education' },
         { id: 5, name: 'experience' },
-        { id: 6, name: 'certificate' },
         { id: 7, name: 'contact' }
     ];
-
-    function onMenuClick(id) {
-        setSelectedId(id)
+    function onMenuClick() {
         if (window.innerWidth < 769) {
             setMobileMenuState(!showMobileMenu)
         }
     }
+    function navigationMenuCode() {
+        return (
+            navigationMenus.map(({ id, name }, index) => {
+                return (
+                    <div key={index}>
+                        <a href={`#${name}`}
+                            onClick={_ => onMenuClick()}>
+                            {name}
+                        </a>
+                    </div>
+                )
+            })
+        )
+    }
 
     return (
         <div className="sidebar-container">
-            {/* <div className="profile-photo" /> */}
-            {/* <div className="title"> Rohit Khatu </div> */}
             <div className="navigation-bar">
-                <div className="links">
-                    {
-                        navigationMenus.map(({ id, name }, index) => {
-                            return (
-                                <span key={index}>
-                                    <Link to={name}
-                                        className={selectedMenuId === index
-                                            ? "active-link" : "link"}
-                                        onClick={_ => onMenuClick(id)}>
-                                        {name}
-                                    </Link>
-                                </span>
-                            )
-                        })
-                    }
-                </div>
+                <div className="links"> {navigationMenuCode()} </div>
                 <div className="hamburger-menu"
                     onClick={_ => setMobileMenuState(!showMobileMenu)}>
                     <div />
@@ -52,26 +44,17 @@ function Sidebar() {
                     <div />
                 </div>
             </div>
-            {/* {
+            {
                 showMobileMenu ? (
                     <div className="mobile-menu">
-                        {
-                            navigationMenus.map(({ id, name }, index) => {
-                                return (
-                                    <div>
-                                        <Link to={name}
-                                            className={selectedMenuId === index
-                                                ? "active-link" : "link"}
-                                            onClick={_ => onMenuClick()}>
-                                            {name}
-                                        </Link>
-                                    </div>
-                                )
-                            })
-                        }
+                        <p className="close-icon" 
+                            onClick={_ => setMobileMenuState(!showMobileMenu)}> 
+                            &#x2715; 
+                        </p>
+                        {navigationMenuCode()} 
                     </div>
                 ) : null
-            } */}
+            }
         </div>
     )
 }

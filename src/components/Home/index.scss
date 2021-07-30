@@ -2,12 +2,11 @@
 
 .home-page {
   display: flex;
-  height: 1200px;
-  min-height: 500px;
-  padding: 20px 50px;
+  padding: 50px;
+  min-height: 700px;
   flex-direction: column;
   justify-content: center;
-  background: url("../../images/4683.jpg");
+  background: url("../../images/deep_learning.jpg") !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,11 +15,13 @@
     font-size: 60px;
     font-weight: 600;
     margin-bottom: 10px;
-    font-family: cursive;
+    color: rgb(218, 131, 18);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   #sub-title {
     margin: 0;
     font-size: 22px;
+    color: rgb(218, 131, 18);
   }
   #download-cv {
     width: 200px;
@@ -35,5 +36,16 @@
     text-decoration: none;
     text-transform: uppercase;
     background: $primary-color;
+  }
+  @media screen and (max-width: 600px) {
+    min-height: 500px;
+    padding: 50px 30px;
+    background-position: left;
+    #title {
+      font-size: 40px;
+    }
+    #sub-title {
+      font-size: 18px;
+    }
   }
 }

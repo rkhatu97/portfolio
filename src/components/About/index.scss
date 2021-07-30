@@ -1,14 +1,32 @@
 @import "../../variable.scss";
 
 .about-page {
-  .details {
-    color: #5d5d5f;
-    font-size: 16px;
-    letter-spacing: 1px;
-    margin-bottom: 2rem;
-
-    strong {
-      color: #000;
+  .about-us-container {
+    width: 80%;
+    margin: 0 auto;
+    .profile-photo {
+      padding: 15px;
+      text-align: center;
+      max-height: 315px;
+      max-width: 230px;
+      background: #fff;
+      box-shadow: 0 4px 6px rgba(0,0,0,.3);
+      img {
+        max-width: 200px;
+      }
+    }
+    .details {
+      margin-left: 4rem;
+      color: #5d5d5f;
+      font-size: 15px;
+      padding: 20px 30px;
+      letter-spacing: 1px;
+      h1 {
+        padding-bottom: 1rem;
+      }
+      strong {
+        color: #000;
+      }
     }
   }
   #technologies-list {
@@ -24,6 +42,7 @@
         padding: 10px 20px;
         text-align: center;
         align-items: center;
+        border-radius: 20px;
         justify-content: center;
         box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
       }
@@ -43,6 +62,26 @@
       cursor: pointer;
       padding: 5px 10px;
       border: 1px solid #000;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .about-us-container {
+      width: 100%;
+      .details {
+        margin-left: 1.5rem;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .about-us-container {
+      align-items: center;
+      flex-direction: column;
+      .details {
+        margin:0;
+        h1 {
+          text-align: center;
+        }
+      }
     }
   }
 }

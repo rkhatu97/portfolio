@@ -19,17 +19,23 @@ function Contact() {
             id: 3,
             title: "link",
             class: "fa-linkedin-square",
-            value: "https://www.linkedin.com/in/rohit-khatu-ba5951166"
+            value: "https://www.linkedin.com/in/rkhatu97"
         },
         {
             id: 4,
+            title: "link",
+            class: "fa-github-square",
+            value: "https://www.github.com/rkhatu97"
+        },
+        {
+            id: 5,
             class: "fa-map-marker",
-            value: "Boston, Massachusetts"
+            value: "Boston, MA"
         }
     ];
 
     return (
-        <div className="component-spacing" id="contact">
+        <section className="contact-page component-spacing" id="contact">
             <div className="component-header"> Get in touch </div>
             <div className="component-sub-header">Contact Details </div>
             <div className="contact-list">
@@ -41,7 +47,7 @@ function Contact() {
                                     <i className={`fa ${data.class}`}
                                         aria-hidden="true"></i>
                                 </div>
-                                <div className="value" data-aos="fade-left">
+                                <div className="value">
                                     {
                                         data.title === "phone"
                                             ? (
@@ -69,7 +75,7 @@ function Contact() {
                     })
                 }
             </div>
-        </div>
+        </section>
     )
 }
 

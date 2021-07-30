@@ -2,7 +2,6 @@ import React from "react";
 import './index.scss';
 
 function Skills() {
-
     const programmingSkills = [
         {
             id: 1,
@@ -12,21 +11,27 @@ function Skills() {
         },
         {
             id: 2,
-            name: "Java",
+            name: "JavaScript",
             color: "#f9bf3f",
             percentage: "80"
         },
         {
             id: 3,
-            name: "Devops",
+            name: "Python",
             color: "#a84cb8",
-            percentage: "89"
+            percentage: "95"
         },
         {
             id: 4,
-            name: "CSS",
+            name: "R",
             color: "#ec5453",
-            percentage: "65"
+            percentage: "95"
+        },
+        {
+            id: 5,
+            name: "Bash Programming",
+            color: "#ec5453",
+            percentage: "85"
         },
     ];
     const frameworkTools = [
@@ -55,40 +60,60 @@ function Skills() {
             percentage: "73"
         },
     ];
+    const databases = [
+        {
+            id: 1,
+            name: "MySQL",
+            color: "#4054b2",
+            percentage: "92"
+        },
+        {
+            id: 2,
+            name: "PostgreSQL",
+            color: "#2c98f0",
+            percentage: "80"
+        },
+        {
+            id: 3,
+            name: "MariaDB",
+            color: "#f9bf3f",
+            percentage: "95"
+        },
+    ];
     const operatingSystems = [
         {
             id: 1,
             name: "Mac",
             color: "#2c98f0",
-            percentage: "85"
+            percentage: "80"
         },
         {
             id: 2,
             name: "Windows",
             color: "#a84cb8",
-            percentage: "80"
+            percentage: "85"
         },
         {
             id: 3,
             name: "Linux",
             color: "#1abc9c",
-            percentage: "70"
+            percentage: "80"
         },
         {
             id: 4,
             name: "Ubuntu",
             color: "#ec5453",
-            percentage: "66"
+            percentage: "80"
         },
     ];
 
     return (
-        <div className="skills-page component-spacing" id="skills">
+        <section className="skills-page component-spacing" id="skills">
             <div className="component-header"> my speciality </div>
             <div className="component-sub-header"> MY skills </div>
             <div className="component-header"> programming languages </div>
             {/* start of programming languages */}
-            <div className="row m-0">
+            <div className="row mx-0 my-4">
                 {
                     programmingSkills.map(({ name, percentage, color }, index) => {
                         return (
@@ -99,7 +124,7 @@ function Skills() {
                                         {name}
                                         <span className="progress_number">
                                             {percentage}%
-                                            </span>
+                                        </span>
                                     </div>
                                     <span className="progress-bar-inner"
                                         style={{
@@ -119,7 +144,7 @@ function Skills() {
 
             <div className="component-header"> Framework tools </div>
             {/* start of Framework tools */}
-            <div className="row m-0">
+            <div className="row mx-0 my-4">
                 {
                     frameworkTools.map(({ name, percentage, color }, index) => {
                         return (
@@ -149,10 +174,39 @@ function Skills() {
             {/* end of Framework tools */}
 
             <div className="component-header"> Databases </div>
+            {/* start of Operating System */}
+            <div className="row mx-0 my-4">
+                {
+                    databases.map(({ name, percentage, color }, index) => {
+                        return (
+                            <div key={index} data-aos="fade-left"
+                                className="progress_bar col-md-6 p-0 pr-3">
+                                <div className="pro-bar">
+                                    <div className="progress_bar_title">
+                                        {name}
+                                        <span className="progress_number">
+                                            {percentage}%
+                                        </span>
+                                    </div>
+                                    <span className="progress-bar-inner"
+                                        style={{
+                                            "backgroundColor": `${color}`,
+                                            "width": `${percentage}%`
+                                        }}
+                                        data-value={percentage}
+                                        data-percentage-value={percentage}>
+                                    </span>
+                                </div>
+                            </div>
+                        )
+                    })
+                }
+            </div>
+            {/* end of Operating System */}
 
             <div className="component-header"> Operating System </div>
             {/* start of Operating System */}
-            <div className="row m-0">
+            <div className="row mx-0 my-4">
                 {
                     operatingSystems.map(({ name, percentage, color }, index) => {
                         return (
@@ -180,7 +234,7 @@ function Skills() {
                 }
             </div>
             {/* end of Operating System */}
-        </div >
+        </section>
     )
 }
 export default Skills;
