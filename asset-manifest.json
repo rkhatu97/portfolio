@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rohit-portfolio/static/css/main.183d3ac7.chunk.css",
-    "main.js": "/rohit-portfolio/static/js/main.ecba543b.chunk.js",
-    "main.js.map": "/rohit-portfolio/static/js/main.ecba543b.chunk.js.map",
+    "main.js": "/rohit-portfolio/static/js/main.0527f1c7.chunk.js",
+    "main.js.map": "/rohit-portfolio/static/js/main.0527f1c7.chunk.js.map",
     "runtime-main.js": "/rohit-portfolio/static/js/runtime-main.7aab8a80.js",
     "runtime-main.js.map": "/rohit-portfolio/static/js/runtime-main.7aab8a80.js.map",
     "static/js/2.54eddd4b.chunk.js": "/rohit-portfolio/static/js/2.54eddd4b.chunk.js",
@@ -10,17 +10,19 @@
     "index.html": "/rohit-portfolio/index.html",
     "static/css/main.183d3ac7.chunk.css.map": "/rohit-portfolio/static/css/main.183d3ac7.chunk.css.map",
     "static/js/2.54eddd4b.chunk.js.LICENSE.txt": "/rohit-portfolio/static/js/2.54eddd4b.chunk.js.LICENSE.txt",
+    "static/media/Housing_sales.a62222c5.PNG": "/rohit-portfolio/static/media/Housing_sales.a62222c5.PNG",
+    "static/media/OCR.5eacf977.jpg": "/rohit-portfolio/static/media/OCR.5eacf977.jpg",
     "static/media/arrow-up.ba1d3183.svg": "/rohit-portfolio/static/media/arrow-up.ba1d3183.svg",
     "static/media/artificial-intelligence.d966da4c.webp": "/rohit-portfolio/static/media/artificial-intelligence.d966da4c.webp",
     "static/media/data-analytics.263e0caf.jpg": "/rohit-portfolio/static/media/data-analytics.263e0caf.jpg",
     "static/media/index.scss": "/rohit-portfolio/static/media/deep_learning.0fd22dd5.jpg",
     "static/media/profile-photo.1d55fea9.jpg": "/rohit-portfolio/static/media/profile-photo.1d55fea9.jpg",
-    "static/media/resume.b449ea06.pdf": "/rohit-portfolio/static/media/resume.b449ea06.pdf"
+    "static/media/resume.10c5b6c0.pdf": "/rohit-portfolio/static/media/resume.10c5b6c0.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.7aab8a80.js",
     "static/js/2.54eddd4b.chunk.js",
     "static/css/main.183d3ac7.chunk.css",
-    "static/js/main.ecba543b.chunk.js"
+    "static/js/main.0527f1c7.chunk.js"
   ]
 }
