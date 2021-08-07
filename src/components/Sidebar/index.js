@@ -20,7 +20,7 @@ function Sidebar() {
     }
     function navigationMenuCode() {
         return (
-            navigationMenus.map(({ id, name }, index) => {
+            navigationMenus.map(({ name }, index) => {
                 return (
                     <div key={index}>
                         <a href={`#${name}`}

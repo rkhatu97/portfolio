@@ -29,8 +29,8 @@
       justify-content: space-between;
       div {
         cursor: pointer;
-        &:hover {
-          color: $primary-color;
+        a:hover {
+          color: #fff;
         }
       }
     }
