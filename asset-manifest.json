@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/rohit-portfolio/static/css/main.183d3ac7.chunk.css",
-    "main.js": "/rohit-portfolio/static/js/main.0527f1c7.chunk.js",
-    "main.js.map": "/rohit-portfolio/static/js/main.0527f1c7.chunk.js.map",
+    "main.css": "/rohit-portfolio/static/css/main.58014c85.chunk.css",
+    "main.js": "/rohit-portfolio/static/js/main.60315e09.chunk.js",
+    "main.js.map": "/rohit-portfolio/static/js/main.60315e09.chunk.js.map",
     "runtime-main.js": "/rohit-portfolio/static/js/runtime-main.7aab8a80.js",
     "runtime-main.js.map": "/rohit-portfolio/static/js/runtime-main.7aab8a80.js.map",
     "static/js/2.54eddd4b.chunk.js": "/rohit-portfolio/static/js/2.54eddd4b.chunk.js",
     "static/js/2.54eddd4b.chunk.js.map": "/rohit-portfolio/static/js/2.54eddd4b.chunk.js.map",
     "index.html": "/rohit-portfolio/index.html",
-    "static/css/main.183d3ac7.chunk.css.map": "/rohit-portfolio/static/css/main.183d3ac7.chunk.css.map",
+    "static/css/main.58014c85.chunk.css.map": "/rohit-portfolio/static/css/main.58014c85.chunk.css.map",
     "static/js/2.54eddd4b.chunk.js.LICENSE.txt": "/rohit-portfolio/static/js/2.54eddd4b.chunk.js.LICENSE.txt",
     "static/media/Housing_sales.a62222c5.PNG": "/rohit-portfolio/static/media/Housing_sales.a62222c5.PNG",
     "static/media/OCR.5eacf977.jpg": "/rohit-portfolio/static/media/OCR.5eacf977.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.7aab8a80.js",
     "static/js/2.54eddd4b.chunk.js",
-    "static/css/main.183d3ac7.chunk.css",
-    "static/js/main.0527f1c7.chunk.js"
+    "static/css/main.58014c85.chunk.css",
+    "static/js/main.60315e09.chunk.js"
   ]
 }
