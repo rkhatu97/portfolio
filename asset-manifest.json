@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/rohit-portfolio/static/css/main.58014c85.chunk.css",
-    "main.js": "/rohit-portfolio/static/js/main.60315e09.chunk.js",
-    "main.js.map": "/rohit-portfolio/static/js/main.60315e09.chunk.js.map",
-    "runtime-main.js": "/rohit-portfolio/static/js/runtime-main.7aab8a80.js",
-    "runtime-main.js.map": "/rohit-portfolio/static/js/runtime-main.7aab8a80.js.map",
-    "static/js/2.54eddd4b.chunk.js": "/rohit-portfolio/static/js/2.54eddd4b.chunk.js",
-    "static/js/2.54eddd4b.chunk.js.map": "/rohit-portfolio/static/js/2.54eddd4b.chunk.js.map",
-    "index.html": "/rohit-portfolio/index.html",
-    "static/css/main.58014c85.chunk.css.map": "/rohit-portfolio/static/css/main.58014c85.chunk.css.map",
-    "static/js/2.54eddd4b.chunk.js.LICENSE.txt": "/rohit-portfolio/static/js/2.54eddd4b.chunk.js.LICENSE.txt",
-    "static/media/Housing_sales.a62222c5.PNG": "/rohit-portfolio/static/media/Housing_sales.a62222c5.PNG",
-    "static/media/OCR.5eacf977.jpg": "/rohit-portfolio/static/media/OCR.5eacf977.jpg",
-    "static/media/arrow-up.ba1d3183.svg": "/rohit-portfolio/static/media/arrow-up.ba1d3183.svg",
-    "static/media/artificial-intelligence.d966da4c.webp": "/rohit-portfolio/static/media/artificial-intelligence.d966da4c.webp",
-    "static/media/data-analytics.263e0caf.jpg": "/rohit-portfolio/static/media/data-analytics.263e0caf.jpg",
-    "static/media/index.scss": "/rohit-portfolio/static/media/deep_learning.0fd22dd5.jpg",
-    "static/media/profile-photo.1d55fea9.jpg": "/rohit-portfolio/static/media/profile-photo.1d55fea9.jpg",
-    "static/media/resume.10c5b6c0.pdf": "/rohit-portfolio/static/media/resume.10c5b6c0.pdf"
+    "main.css": "/portfolio/static/css/main.4fd96946.chunk.css",
+    "main.js": "/portfolio/static/js/main.48e7046e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.48e7046e.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.43d9a0ba.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.43d9a0ba.js.map",
+    "static/js/2.5f7d0efc.chunk.js": "/portfolio/static/js/2.5f7d0efc.chunk.js",
+    "static/js/2.5f7d0efc.chunk.js.map": "/portfolio/static/js/2.5f7d0efc.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.4fd96946.chunk.css.map": "/portfolio/static/css/main.4fd96946.chunk.css.map",
+    "static/js/2.5f7d0efc.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5f7d0efc.chunk.js.LICENSE.txt",
+    "static/media/Housing_sales.a62222c5.PNG": "/portfolio/static/media/Housing_sales.a62222c5.PNG",
+    "static/media/OCR.5eacf977.jpg": "/portfolio/static/media/OCR.5eacf977.jpg",
+    "static/media/arrow-up.ba1d3183.svg": "/portfolio/static/media/arrow-up.ba1d3183.svg",
+    "static/media/data-analytics.263e0caf.jpg": "/portfolio/static/media/data-analytics.263e0caf.jpg",
+    "static/media/index.scss": "/portfolio/static/media/deep_learning.0fd22dd5.jpg",
+    "static/media/insurance.6a070d9d.jpg": "/portfolio/static/media/insurance.6a070d9d.jpg",
+    "static/media/profile-photo.1d55fea9.jpg": "/portfolio/static/media/profile-photo.1d55fea9.jpg",
+    "static/media/resume.10c5b6c0.pdf": "/portfolio/static/media/resume.10c5b6c0.pdf",
+    "static/media/web_scrapping.d5103be1.png": "/portfolio/static/media/web_scrapping.d5103be1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7aab8a80.js",
-    "static/js/2.54eddd4b.chunk.js",
-    "static/css/main.58014c85.chunk.css",
-    "static/js/main.60315e09.chunk.js"
+    "static/js/runtime-main.43d9a0ba.js",
+    "static/js/2.5f7d0efc.chunk.js",
+    "static/css/main.4fd96946.chunk.css",
+    "static/js/main.48e7046e.chunk.js"
   ]
 }
