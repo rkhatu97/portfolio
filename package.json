@@ -1,6 +1,6 @@
 {
-  "name": "rohitportfolio",
-  "homepage": "http://rkhatu97.github.io/rohit-portfolio",
+  "name": "portfolio",
+  "homepage": "http://rkhatu97.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

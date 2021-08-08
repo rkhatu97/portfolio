@@ -61,7 +61,7 @@ function Experience() {
                   <i className="fa fa-clock-o mr-1"></i>
                   {date}
                 </span>
-                <ul className={`mt-3 font-weight-light ${descriptionClass}`}>
+                <ul className={`mt-3 description-content font-weight-light ${descriptionClass}`}>
                   {description.map((value, index) => {
                     return (
                         <li key={index} className="description-list"> 

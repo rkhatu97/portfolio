@@ -5,57 +5,63 @@ function Skills() {
     const programmingSkills = [
         {
             id: 1,
-            name: "HTML5",
+            name: "Python",
             color: "#1abc9c",
-            percentage: "70"
+            percentage: "95"
         },
         {
             id: 2,
-            name: "JavaScript",
+            name: "R",
             color: "#f9bf3f",
-            percentage: "80"
+            percentage: "95"
         },
         {
             id: 3,
-            name: "Python",
+            name: "JavaScript",
             color: "#a84cb8",
-            percentage: "95"
+            percentage: "80"
         },
         {
             id: 4,
-            name: "R",
+            name: "HTML/CSS",
             color: "#ec5453",
-            percentage: "95"
+            percentage: "80"
         },
         {
             id: 5,
             name: "Bash Programming",
-            color: "#ec5453",
+            color: "#4054b2",
             percentage: "85"
         },
     ];
     const frameworkTools = [
         {
             id: 1,
-            name: "Angular",
+            name: "GIT",
             color: "#4054b2",
-            percentage: "65"
+            percentage: "90"
         },
         {
             id: 2,
-            name: "React",
+            name: "Tableau",
             color: "#2c98f0",
-            percentage: "77"
+            percentage: "83"
         },
         {
             id: 3,
-            name: "Machine Learning",
+            name: "Power BI",
             color: "#f9bf3f",
-            percentage: "82"
+            percentage: "75"
         },
         {
             id: 4,
-            name: "C++",
+            name: "Anaconda",
+            color: "#a84cb8",
+            percentage: "80"
+        },
+        {
+            id: 5,
+            name: "Office 365",
             color: "#a84cb8",
             percentage: "73"
         },
@@ -79,6 +85,50 @@ function Skills() {
             color: "#f9bf3f",
             percentage: "95"
         },
+        {
+            id: 4,
+            name: "Hadoop",
+            color: "#a84cb8",
+            percentage: "80"
+        },
+        {
+            id: 5,
+            name: "Spark",
+            color: "#1abc9c",
+            percentage: "80"
+        },
+    ];
+    const cloud = [
+        {
+            id: 1,
+            name: "AWS",
+            color: "#f9bf3f",
+            percentage: "82"
+        },
+        {
+            id: 2,
+            name: "GCP",
+            color: "#2c98f0",
+            percentage: "80"
+        },
+        {
+            id: 2,
+            name: "Azure",
+            color: "#ec5453",
+            percentage: "80"
+        },
+        {
+            id: 3,
+            name: "Docker",
+            color: "#4054b2",
+            percentage: "85"
+        },
+        {
+            id: 4,
+            name: "Jenkins",
+            color: "#1abc9c",
+            percentage: "90"
+        },
     ];
     const operatingSystems = [
         {
@@ -97,13 +147,13 @@ function Skills() {
             id: 3,
             name: "Linux",
             color: "#1abc9c",
-            percentage: "80"
+            percentage: "82"
         },
         {
             id: 4,
             name: "Ubuntu",
             color: "#ec5453",
-            percentage: "80"
+            percentage: "82"
         },
     ];
 
@@ -173,7 +223,7 @@ function Skills() {
             </div>
             {/* end of Framework tools */}
 
-            <div className="component-header"> Databases </div>
+            <div className="component-header"> Databases/Big Data Tech </div>
             {/* start of Operating System */}
             <div className="row mx-0 my-4">
                 {
@@ -203,6 +253,36 @@ function Skills() {
                 }
             </div>
             {/* end of Operating System */}
+
+            <div className="component-header"> Cloud and Automation </div>
+            {/* start of Operating System */}
+            <div className="row mx-0 my-4">
+                {
+                    cloud.map(({ name, percentage, color }, index) => {
+                        return (
+                            <div key={index} data-aos="fade-left"
+                                className="progress_bar col-md-6 p-0 pr-3">
+                                <div className="pro-bar">
+                                    <div className="progress_bar_title">
+                                        {name}
+                                        <span className="progress_number">
+                                            {percentage}%
+                                        </span>
+                                    </div>
+                                    <span className="progress-bar-inner"
+                                        style={{
+                                            "backgroundColor": `${color}`,
+                                            "width": `${percentage}%`
+                                        }}
+                                        data-value={percentage}
+                                        data-percentage-value={percentage}>
+                                    </span>
+                                </div>
+                            </div>
+                        )
+                    })
+                }
+            </div>
 
             <div className="component-header"> Operating System </div>
             {/* start of Operating System */}
