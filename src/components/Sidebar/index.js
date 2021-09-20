@@ -11,6 +11,7 @@ function Sidebar() {
         { id: 3, name: 'skills' },
         { id: 4, name: 'education' },
         { id: 5, name: 'experience' },
+        { id: 6, name: 'certificates' },
         { id: 7, name: 'contact' }
     ];
     function onMenuClick() {

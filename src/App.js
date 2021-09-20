@@ -10,6 +10,7 @@ import ArrowUp from './images/arrow-up.svg';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import './App.scss';
+import Certificates from './components/Certificates';
 
 function App() {
   const { y: pageYOffset } = useWindowScroll();
@@ -56,6 +57,7 @@ function App() {
           <Skills />
           <Education />
           <Experience />
+          <Certificates />
           <Contact />
         </div>
       </div>
