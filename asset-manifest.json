@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.652c9808.chunk.css",
-    "main.js": "/portfolio/static/js/main.05038b3a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.05038b3a.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.948c0a6b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.948c0a6b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.43d9a0ba.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.43d9a0ba.js.map",
     "static/js/2.47c0a520.chunk.js": "/portfolio/static/js/2.47c0a520.chunk.js",
@@ -19,13 +19,13 @@
     "static/media/index.scss": "/portfolio/static/media/deep_learning.0fd22dd5.jpg",
     "static/media/insurance.6a070d9d.jpg": "/portfolio/static/media/insurance.6a070d9d.jpg",
     "static/media/profile-photo.1d55fea9.jpg": "/portfolio/static/media/profile-photo.1d55fea9.jpg",
-    "static/media/resume.9e25d97a.pdf": "/portfolio/static/media/resume.9e25d97a.pdf",
+    "static/media/resume.61f9742a.pdf": "/portfolio/static/media/resume.61f9742a.pdf",
     "static/media/web_scrapping.d5103be1.png": "/portfolio/static/media/web_scrapping.d5103be1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.43d9a0ba.js",
     "static/js/2.47c0a520.chunk.js",
     "static/css/main.652c9808.chunk.css",
-    "static/js/main.05038b3a.chunk.js"
+    "static/js/main.948c0a6b.chunk.js"
   ]
 }
