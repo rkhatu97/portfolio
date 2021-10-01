@@ -12,9 +12,9 @@ function Certificates() {
                 
                 
             </div> */}
-            <div className="d-flex align-items-center justify-content-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <img className="col-lg-6 col-md-5 col-sm-12 col-xs-12" src={certificate_2} alt="jpg" />
-                    <img className="col-lg-6 col-md-5 col-sm-12 col-xs-12" src={certificate} alt="jpg_1" />
+            <div className="d-flex align-items-center justify-content-center col-lg-12 col-md-12 col-Sm-12 col-xs-12">
+                    <img className="col-lg-6 col-md-5 col-Sm-12 col-xs-12" src={certificate_2} alt="jpg" />
+                    <img className="col-lg-6 col-md-5 col-Sm-12 col-xs-12" src={certificate} alt="jpg_1" />
                 </div>
         </section>
     )
