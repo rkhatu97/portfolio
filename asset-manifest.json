@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.652c9808.chunk.css",
-    "main.js": "/portfolio/static/js/main.c6000aec.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.c6000aec.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.24b8e5b3.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.24b8e5b3.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.43d9a0ba.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.43d9a0ba.js.map",
     "static/js/2.47c0a520.chunk.js": "/portfolio/static/js/2.47c0a520.chunk.js",
@@ -14,18 +14,18 @@
     "static/media/Certificate-2.70faed26.jpg": "/portfolio/static/media/Certificate-2.70faed26.jpg",
     "static/media/Housing_sales.a62222c5.PNG": "/portfolio/static/media/Housing_sales.a62222c5.PNG",
     "static/media/OCR.5eacf977.jpg": "/portfolio/static/media/OCR.5eacf977.jpg",
+    "static/media/Resume(Rohit Khatu).8db6f5b2.pdf": "/portfolio/static/media/Resume(Rohit Khatu).8db6f5b2.pdf",
     "static/media/arrow-up.ba1d3183.svg": "/portfolio/static/media/arrow-up.ba1d3183.svg",
     "static/media/data-analytics.263e0caf.jpg": "/portfolio/static/media/data-analytics.263e0caf.jpg",
     "static/media/index.scss": "/portfolio/static/media/deep_learning.0fd22dd5.jpg",
     "static/media/insurance.6a070d9d.jpg": "/portfolio/static/media/insurance.6a070d9d.jpg",
     "static/media/profile-photo.1d55fea9.jpg": "/portfolio/static/media/profile-photo.1d55fea9.jpg",
-    "static/media/resume.dfd2759e.pdf": "/portfolio/static/media/resume.dfd2759e.pdf",
     "static/media/web_scrapping.d5103be1.png": "/portfolio/static/media/web_scrapping.d5103be1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.43d9a0ba.js",
     "static/js/2.47c0a520.chunk.js",
     "static/css/main.652c9808.chunk.css",
-    "static/js/main.c6000aec.chunk.js"
+    "static/js/main.24b8e5b3.chunk.js"
   ]
 }
