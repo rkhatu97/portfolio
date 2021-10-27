@@ -9,9 +9,9 @@ function Experience() {
       date: "January, 2021 - June 2021",
       title: "Machine Learning Software Engineer Intern, Dtonomy Inc.",
       description: [
-        "Refined random forest model used for pattern discovery by performing feature addition and hyperparameter tuning. Deployed the model as a service on Docker container for identifying security detection and provide analysis.",
-        "Constructed a node-red workflow using NodeJS, JavaScript, HTML, and python to set inbox rules to block spam mails with keyword and to block sender with id, leveraging Microsoft Graph API and Azure app registration feature.",
-        "Developed selenium script automating request and receipt of consent for scopes of graph API used to access and set the inbox rules. Created inject node in node-red to trigger workflow based on time, time zone and various data types.",
+        "Built and Refined random forest model for pattern discovery by performing feature addition and hyperparameter tuning. Deployed the model as a service on the Docker container to identify malicious URLs and provide analysis.",
+        "Constructed an O365 node-red workflow using NodeJS, JavaScript, HTML, CSS, and python to set inbox rules to block spam mails with keyword and to block sender with id, leveraging MS Graph API and Azure app registration.",
+        "Developed selenium script automating request and receipt of consent for scopes of graph API used to access and set the inbox rules. Created inject node in node-red to trigger a workflow based on time, time zone and various data types.",
         "Created a PowerShell node in nod-red to run the PowerShell script. Achieved OS independence for the node by installing PowerShell dependencies into the docker container and deploying the node on top of the container.",
       ],
     },
@@ -22,10 +22,10 @@ function Experience() {
       title:
         "Associate Consultant (DevOps Developer), Mindcraft Software PVT.LTD.",
       description: [
-        "Leveraged DevOps technology; Jenkins, docker, and chef for automated deployment of MySQL server and client on multiple servers simultaneously which reduced the deployment time to 2 Hours from 1 week.",
-        "Automated Deployment of  Loan disbursement Web application on Tomcat server running on EC2 instance on AWS for DEV/UAT/PROD environment using single Jenkins job, achieved timely deployment and testing.",
-        "Developed and triggered Shell scripts using cron jobs and Jenkins to perform database/WAR file backup, user/database/table creation, and set user access rights as per security guidelines and for service health monitoring.",
-        "Engineered software with help of ruby scripting for Universal Overseas Bank, Singapore. Documented POC’s for entire project, worked under Agile practices. Working Knowledge of finance and insurance sector.",
+        "Leveraged DevOps technology; Jenkins, docker, and chef for parameterized automated deployment of MySQL server/client as a cluster on multiple servers simultaneously which reduced deployment time to 2 Hours from a week.",
+        "Developed CICD pipeline for automated deployment of  Loan disbursement Web application on Tomcat server running on AWS EC2 instance for DEV/UAT/PROD environment using sole Jenkins job, achieved end to end testing.",
+        "Developed and triggered Shell/Python scripts using cron jobs and Jenkins to perform database/WAR file backup, user/database/table creation, set DB access rights for user as per database design, and for health monitoring of service.",
+        "Documented Proof of Concept of engineered software, CICD pipeline, and DB design for Universal Overseas Bank, Singapore and Fullerton, India, worked under Agile SDLC. Working knowledge of finance and insurance sector.",
       ],
     },
   ]);
