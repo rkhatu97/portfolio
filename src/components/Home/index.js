@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../pdfs/resume.pdf';
+import resume from '../../pdfs/Resume(Rohit Khatu).pdf';
 import './index.scss';
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
                 <a href={resume}
                     id="download-cv"
                     data-aos="fade-up"
-                    download="resume.pdf">
+                    download="Resume(Rohit Khatu).pdf">
                     Download CV
                 </a>
             </div>
