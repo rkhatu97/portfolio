@@ -21,7 +21,7 @@ const Home = () => {
                     id="download-cv"
                     data-aos="fade-up"
                     download="Resume(Rohit Khatu).pdf">
-                    Download CV
+                    Download Resume
                 </a>
             </div>
         </section>
